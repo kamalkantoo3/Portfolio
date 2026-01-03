@@ -3,22 +3,22 @@ import { ArrowRight, ExternalLink, Github } from "lucide-react";
 const projects = [
   {
     id: 1,
-    title: "SaaS Landing Page",
-    description: "A beautiful landing page app using React and Tailwind.",
-    image: "/projects/project1.png",
-    tags: ["React", "TailwindCSS", "Supabase"],
-    demoUrl: "#",
-    githubUrl: "#",
+    title: "Inter-view",
+    description: "Real-time interview platform built for seamless video calls, screen sharing, and collaborative coding.",
+    image: "/projects/project5.png",
+    tags: ["React", "TailwindCSS",  "Node.js"],
+    demoUrl: "https://github.com/kamalkantoo3/Inter-view1.git",
+    githubUrl: "https://github.com/kamalkantoo3/Inter-view1.git",
   },
   {
     id: 2,
-    title: "Orbit Analytics Dashboard",
+    title: "iNotebook",
     description:
-      "Interactive analytics dashboard with data visualization and filtering capabilities.",
-    image: "/projects/project2.png",
-    tags: ["TypeScript", "D3.js", "Next.js"],
-    demoUrl: "#",
-    githubUrl: "#",
+      "A modern web application demonstrating user authentication and other Web development concepts.",
+    image: "/projects/project6.png",
+    tags: ["React", "JWT", "Node.js"],
+    demoUrl: "https://github.com/kamalkantoo3/iNotebook.git",
+    githubUrl: "https://github.com/kamalkantoo3/Inter-view1.git",
   },
   {
     id: 3,
@@ -80,14 +80,14 @@ export const ProjectsSection = () => {
                       target="_blank"
                       className="text-foreground/80 hover:text-primary transition-colors duration-300"
                     >
-                      <ExternalLink size={20} />
+                  <Github size={20} />
                     </a>
                     <a
                       href={project.githubUrl}
                       target="_blank"
                       className="text-foreground/80 hover:text-primary transition-colors duration-300"
                     >
-                      <Github size={20} />
+                  
                     </a>
                   </div>
                 </div>
@@ -100,7 +100,7 @@ export const ProjectsSection = () => {
           <a
             className="cosmic-button w-fit flex items-center mx-auto gap-2"
             target="_blank"
-            href="https://github.com/machadop1407"
+            href="https://github.com/kamalkantoo3"
           >
             Check My Github <ArrowRight size={16} />
           </a>
